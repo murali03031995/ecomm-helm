@@ -1,0 +1,17 @@
+# custom values for deploying ecomm web application
+
+deployment:
+  name: ecomm-deployment
+  replicas: 2
+  label: ecomm
+  container: ecomm-con
+  image: murali1108/food-app
+  port: 80
+
+
+service:
+  name: ecomm-service
+  type: NodePort
+  label: ecomm
+  port: 80
+  nodeport: 30147

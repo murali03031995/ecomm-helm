@@ -5,7 +5,7 @@ deployment:
   replicas: 2
   label: ecomm
   container: ecomm-con
-  image: murali1108/food-app
+  image: murali1108/ecomm
   port: 80
 
 
